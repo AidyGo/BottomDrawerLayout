@@ -4,51 +4,168 @@ BottomDrawerLayout
 set drawerlayout on four directinos.
 
 
-12-03 22:59:19.686: I/BottomDrawerLayout(12480): onLayout() -- left = 0 -- top = 0 -- right = 1080 -- b = 1675
-12-03 22:59:19.686: I/BottomDrawerLayout(12480): onLayout() -- childWidth = 750 -- childHeight = 1675 -- lp.onScreen = 0.0
-12-03 22:59:19.686: I/BottomDrawerLayout(12480): onLayout() -- childLeft = -750 -- newOffset = 0.0
-12-03 22:59:19.686: I/BottomDrawerLayout(12480): onLayout() -- childWidth = 750 -- childHeight = 1675 -- lp.onScreen = 0.0
-12-03 22:59:19.686: I/BottomDrawerLayout(12480): onLayout() -- childLeft = 1080 -- newOffset = 0.0
+01-06 01:04:45.705: I/DrawerLayout(24019): onInterceptTouchEvent()
+01-06 01:04:45.705: I/DrawerLayout(24019): onInterceptTouchEvent() -- ACTION_DOWN
+01-06 01:04:45.705: I/DrawerLayout(24019): onInterceptTouchEvent() -- result = false
+01-06 01:04:45.705: I/DrawerLayout(24019): onTouchEvent()
+01-06 01:04:45.705: I/DrawerLayout(24019): tryCaptureView()
+01-06 01:04:45.705: I/DrawerLayout(24019): onTouchEvent() -- ACTION_DOWN
+01-06 01:04:45.705: I/DrawerLayout(24019): onTouchEvent() -- result = true
+01-06 01:04:45.965: I/DrawerLayout(24019): onTouchEvent()
+01-06 01:04:45.965: I/DrawerLayout(24019): tryCaptureView()
+01-06 01:04:45.965: I/DrawerLayout(24019): onTouchEvent() -- result = true
+01-06 01:04:45.965: I/DrawerLayout(24019): onTouchEvent()
+01-06 01:04:45.965: I/DrawerLayout(24019): onTouchEvent() -- ACTION_UP
+01-06 01:04:45.965: I/DrawerLayout(24019): onTouchEvent() -- result = true
+
+
+01-06 01:05:27.465: I/DrawerLayout(24019): onInterceptTouchEvent()
+01-06 01:05:27.465: I/DrawerLayout(24019): onEdgeTouched()
+01-06 01:05:27.465: I/DrawerLayout(24019): onInterceptTouchEvent() -- ACTION_DOWN
+01-06 01:05:27.465: I/DrawerLayout(24019): onInterceptTouchEvent() -- result = false
+01-06 01:05:27.465: I/DrawerLayout(24019): onTouchEvent()
+01-06 01:05:27.465: I/DrawerLayout(24019): tryCaptureView()
+01-06 01:05:27.465: I/DrawerLayout(24019): onEdgeTouched()
+01-06 01:05:27.465: I/DrawerLayout(24019): onTouchEvent() -- ACTION_DOWN
+01-06 01:05:27.465: I/DrawerLayout(24019): onTouchEvent() -- result = true
+01-06 01:05:27.635: I/DrawerLayout(24019): peekDrawer()
+01-06 01:05:27.635: I/DrawerLayout(24019): onViewDragStateChanged()
+01-06 01:05:27.635: I/DrawerLayout(24019): updateDrawerState()
+01-06 01:05:27.635: I/DrawerLayout(24019): computeScroll()
+01-06 01:05:27.635: I/DrawerLayout(24019): computeScroll() -- 1
+01-06 01:05:27.645: I/DrawerLayout(24019): computeScroll() -- 1
+01-06 01:05:27.645: I/DrawerLayout(24019): onViewPositionChanged()
+01-06 01:05:27.645: I/DrawerLayout(24019): setDrawerViewOffset()
+01-06 01:05:27.645: I/DrawerLayout(24019): computeScroll() -- 2
+01-06 01:05:27.645: I/DrawerLayout(24019): drawChild()
+01-06 01:05:27.645: I/DrawerLayout(24019): drawChild() -- 0
+01-06 01:05:27.645: I/DrawerLayout(24019): drawChild()
+01-06 01:05:27.655: I/DrawerLayout(24019): peekDrawer()
+01-06 01:05:27.655: I/DrawerLayout(24019): computeScroll()
+01-06 01:05:27.655: I/DrawerLayout(24019): computeScroll() -- 1
+01-06 01:05:27.655: I/DrawerLayout(24019): computeScroll() -- 1
+01-06 01:05:27.665: I/DrawerLayout(24019): onViewPositionChanged()
+01-06 01:05:27.665: I/DrawerLayout(24019): setDrawerViewOffset()
+01-06 01:05:27.665: I/DrawerLayout(24019): computeScroll() -- 2
+01-06 01:05:27.665: I/DrawerLayout(24019): drawChild()
+01-06 01:05:27.665: I/DrawerLayout(24019): drawChild() -- 0
+01-06 01:05:27.665: I/DrawerLayout(24019): drawChild() -- drawingContent
+01-06 01:05:27.665: I/DrawerLayout(24019): drawChild()
+01-06 01:05:27.675: I/DrawerLayout(24019): onTouchEvent()
+01-06 01:05:27.675: I/DrawerLayout(24019): onTouchEvent() -- result = true
+01-06 01:05:27.685: I/DrawerLayout(24019): computeScroll()
+01-06 01:05:27.685: I/DrawerLayout(24019): computeScroll() -- 1
+01-06 01:05:27.685: I/DrawerLayout(24019): computeScroll() -- 1
+01-06 01:05:27.685: I/DrawerLayout(24019): onViewPositionChanged()
+01-06 01:05:27.685: I/DrawerLayout(24019): setDrawerViewOffset()
+01-06 01:05:27.685: I/DrawerLayout(24019): computeScroll() -- 2
+
+01-06 01:05:27.685: I/DrawerLayout(24019): drawChild()
+01-06 01:05:27.685: I/DrawerLayout(24019): drawChild() -- 0
+01-06 01:05:27.685: I/DrawerLayout(24019): drawChild() -- drawingContent
+01-06 01:05:27.695: I/DrawerLayout(24019): drawChild()
+01-06 01:05:27.695: I/DrawerLayout(24019): onTouchEvent()
+01-06 01:05:27.695: I/DrawerLayout(24019): onTouchEvent() -- result = true
+01-06 01:05:27.695: I/DrawerLayout(24019): computeScroll()
+01-06 01:05:27.705: I/DrawerLayout(24019): computeScroll() -- 1
+01-06 01:05:27.705: I/DrawerLayout(24019): computeScroll() -- 1
+01-06 01:05:27.705: I/DrawerLayout(24019): onViewPositionChanged()
+01-06 01:05:27.705: I/DrawerLayout(24019): setDrawerViewOffset()
+01-06 01:05:27.705: I/DrawerLayout(24019): computeScroll() -- 2
+01-06 01:05:27.705: I/DrawerLayout(24019): drawChild()
+01-06 01:05:27.705: I/DrawerLayout(24019): drawChild() -- 0
+01-06 01:05:27.705: I/DrawerLayout(24019): drawChild() -- drawingContent
+01-06 01:05:27.705: I/DrawerLayout(24019): drawChild()
+01-06 01:05:27.715: I/DrawerLayout(24019): onTouchEvent()
+01-06 01:05:27.715: I/DrawerLayout(24019): onEdgeDragStarted()
+01-06 01:05:27.715: I/DrawerLayout(24019): onViewCaptured()
+01-06 01:05:27.715: I/DrawerLayout(24019): onViewDragStateChanged()
+01-06 01:05:27.715: I/DrawerLayout(24019): updateDrawerState()
+01-06 01:05:27.715: I/DrawerLayout(24019): onTouchEvent() -- result = true
+01-06 01:05:27.715: I/DrawerLayout(24019): computeScroll()
+01-06 01:05:27.715: I/DrawerLayout(24019): computeScroll() -- 1
+01-06 01:05:27.725: I/DrawerLayout(24019): computeScroll() -- 1
+01-06 01:05:28.795: I/DrawerLayout(24019): drawChild()
+01-06 01:05:28.795: I/DrawerLayout(24019): drawChild() -- 0
+01-06 01:05:28.795: I/DrawerLayout(24019): drawChild() -- drawingContent
+01-06 01:05:28.795: I/DrawerLayout(24019): drawChild()
+01-06 01:05:28.795: I/DrawerLayout(24019): onTouchEvent()
+01-06 01:05:28.795: I/DrawerLayout(24019): onViewReleased()
+01-06 01:05:28.795: I/DrawerLayout(24019): onViewDragStateChanged()
+01-06 01:05:28.795: I/DrawerLayout(24019): updateDrawerState()
+01-06 01:05:28.805: I/DrawerLayout(24019): onTouchEvent() -- ACTION_UP
+01-06 01:05:28.805: I/DrawerLayout(24019): onTouchEvent() -- result = true
+01-06 01:05:28.805: I/DrawerLayout(24019): computeScroll()
+01-06 01:05:28.805: I/DrawerLayout(24019): computeScroll() -- 1
+01-06 01:05:28.805: I/DrawerLayout(24019): computeScroll() -- 1
+01-06 01:05:28.805: I/DrawerLayout(24019): drawChild()
+01-06 01:05:28.805: I/DrawerLayout(24019): drawChild() -- 0
+01-06 01:05:28.805: I/DrawerLayout(24019): drawChild() -- drawingContent
+01-06 01:05:28.805: I/DrawerLayout(24019): drawChild()
 
 
 
-12-03 23:10:20.601: I/BottomDrawerLayout(12780): onCreate()
-12-03 23:10:20.746: I/BottomDrawerLayout(12780): onLayout() -- left = 0 -- top = 0 -- right = 1080 -- b = 1675
-
-								left
-12-03 23:10:20.746: I/BottomDrawerLayout(12780): onLayout() -- childWidth = 750 -- childHeight = 1675 -- lp.onScreen = 0.0
-12-03 23:10:20.746: I/BottomDrawerLayout(12780): onLayout() -- 1
-12-03 23:10:20.746: I/BottomDrawerLayout(12780): onLayout() -- childLeft = -750 -- newOffset = 0.0
-
-								right
-12-03 23:10:20.746: I/BottomDrawerLayout(12780): onLayout() -- childWidth = 750 -- childHeight = 1675 -- lp.onScreen = 0.0
-12-03 23:10:20.746: I/BottomDrawerLayout(12780): onLayout() -- 2
-12-03 23:10:20.746: I/BottomDrawerLayout(12780): onLayout() -- childLeft = 1080 -- newOffset = 0.0
 
 
 
 
 
 
-12-03 23:45:35.851: I/DrawerLayout(13488): computeScroll()
-12-03 23:45:35.856: I/DrawerLayout(13488): onViewPositionChanged()
-12-03 23:45:35.856: I/DrawerLayout(13488): drawChild()
-12-03 23:45:35.856: I/DrawerLayout(13488): drawChild()
 
-12-03 23:45:35.871: I/DrawerLayout(13488): computeScroll()
-12-03 23:45:35.871: I/DrawerLayout(13488): onViewPositionChanged()
-12-03 23:45:35.871: I/DrawerLayout(13488): drawChild()
-12-03 23:45:35.871: I/DrawerLayout(13488): drawChild()
 
-12-03 23:45:37.051: I/DrawerLayout(13488): onViewPositionChanged()
-12-03 23:45:37.056: I/DrawerLayout(13488): computeScroll()
-12-03 23:45:37.056: I/DrawerLayout(13488): drawChild()
-12-03 23:45:37.056: I/DrawerLayout(13488): drawChild()
 
-12-03 23:45:37.106: I/DrawerLayout(13488): onViewReleased()
-12-03 23:45:37.121: I/DrawerLayout(13488): computeScroll()
-12-03 23:45:37.121: I/DrawerLayout(13488): drawChild()
-12-03 23:45:37.121: I/DrawerLayout(13488): drawChild()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
